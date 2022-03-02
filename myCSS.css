@@ -1,3 +1,4 @@
+/* CSS Styling of Home Page (mainly home page) */
 * {
   margin: 0;
   padding: 0;
@@ -6,11 +7,14 @@
   font-family: 'Courier New', Courier, monospace;
   padding: 0;
 }
+
+/* Bar icon styling */
 #menu-bar {
   margin: 2.5px 8px;
   background-color: transparent;
 }
 
+/* Objects within the container */
 .container1 {
   margin: 3px;
   position: fixed;
@@ -37,6 +41,7 @@
   z-index: 9999;
 }
 
+/* Animated lines of text */
 .container3 {
   display: inline-block;
   background-color: transparent;
@@ -74,6 +79,7 @@
   background-color: transparent;
 }
 
+/* Tabs that link to social media profiles  */
 .social-media-tabs {
   position: fixed;
   bottom: 0;
@@ -98,6 +104,7 @@ ul {
   z-index: 9999;
 }
 
+/* Animation styling */
 @keyframes blink {
   from {
     border-color: transparent;
@@ -107,14 +114,6 @@ ul {
   }
 }
 
-.about-page {
-  position: relative;
-  top: 100vh;
-  height: 100vh;
-  width: 100vw;
-  border: 4px solid white;
-}
-
 @keyframes typing {
   from {
     width: 0;
@@ -122,4 +121,13 @@ ul {
   to {
     width: 100%;
   }
+}
+
+/* About Page Section */
+.about-page {
+  position: relative;
+  top: 100vh;
+  height: 100vh;
+  width: 100vw;
+  border: 4px solid white;
 }
