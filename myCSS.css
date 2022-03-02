@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #111111;
+  color: #67f1a7;
+  font-family: 'Courier New', Courier, monospace;
+  padding: 0;
+}
+#menu-bar {
+  margin: 2.5px 8px;
+  background-color: transparent;
+}
+
+.container1 {
+  margin: 3px;
+  position: fixed;
+  background-color: transparent;
+  z-index: 9999;
+}
+
+.container1 span {
+  position: fixed;
+  background-color: transparent;
+}
+
+.span1-items {
+  position: absolute;
+  top: 20px;
+  left: 50%;
+}
+
+.span1-items a {
+  margin: 20px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.6rem;
+  z-index: 9999;
+}
+
+.container3 {
+  display: inline-block;
+  background-color: transparent;
+}
+
+.container4 {
+  display: inline-block;
+  background-color: transparent;
+}
+
+.typed-out1 {
+  overflow: hidden;
+  border-right: 0.15em solid transparent;
+  white-space: nowrap;
+  font-size: 1.6rem;
+  width: 0;
+  animation: typing 2s steps(25, end) forwards, blink 0.8s 5;
+  background-color: transparent;
+}
+
+.typed-out2 {
+  overflow: hidden;
+  border-right: 0.15em solid transparent;
+  white-space: nowrap;
+  font-size: 1.6rem;
+  width: 0;
+  animation: typing 2s steps(20, end) forwards 4s, blink 0.8s infinite 4s;
+  background-color: transparent;
+}
+
+.animation-texts {
+  position: absolute;
+  left: 40%;
+  bottom: 50%;
+  background-color: transparent;
+}
+
+.social-media-tabs {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  list-style: none;
+  background-color: transparent;
+}
+
+.social-media-item {
+  margin: 20px;
+}
+
+i:hover {
+  color: white;
+}
+
+a:hover {
+  color: white;
+}
+
+ul {
+  z-index: 9999;
+}
+
+@keyframes blink {
+  from {
+    border-color: transparent;
+  }
+  to {
+    border-color: white;
+  }
+}
+
+.about-page {
+  position: relative;
+  top: 100vh;
+  height: 100vh;
+  width: 100vw;
+  border: 4px solid white;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
